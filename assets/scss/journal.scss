@@ -6,10 +6,10 @@ $front-container-background: #ffffff;
 $default-font-list: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
   "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$mono-font-list: "Fira Mono", "Cousine", Monaco, Menlo, "Source Code Pro",
+$mono-font-list: Consolas, "Fira Mono", "Cousine", Monaco, Menlo, "Source Code Pro",
   monospace;
 //$sans-preferred-font-list: "Montserrat", "Roboto", "Source Sans Pro", "Helvetica", $default-font-list;
-$sans-preferred-font-list: $default-font-list;
+$sans-preferred-font-list: 'Noto Serif SC', serif, $default-font-list;
 
 $side-container-width: 25%; //280px;
 $extra-container-width: 25%;
@@ -898,6 +898,7 @@ a {
       .post-body {
         font-size: $post-body-size;
         line-height: 1.5em;
+        text-indent: 2em;
         * {
           word-wrap: break-word;
         }
