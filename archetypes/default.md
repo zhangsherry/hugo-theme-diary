@@ -1,12 +1,11 @@
 ---
 title: ""
 date:
+lastmod:
 description: ""
 tags: []
-featured_image: ""
-# images is optional, but needed for showing Twitter Card
-images: []
 categories:
-comment: true
-draft: true
+hidden: false
+comments: false
+draft: false
 ---
