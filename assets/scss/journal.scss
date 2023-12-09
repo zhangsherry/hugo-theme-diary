@@ -898,7 +898,9 @@ a {
       .post-body {
         font-size: $post-body-size;
         line-height: 1.5em;
-        text-indent: 2em;
+        p {
+          text-indent: 2em;
+        }
         * {
           word-wrap: break-word;
         }
