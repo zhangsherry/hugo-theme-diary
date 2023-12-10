@@ -1,5 +1,5 @@
 - id: last_mod_on
-  translation: 最后修改于 {{ .Format "2006-01-02" }}
+  translation: 最后修改于 {{ .Format "2006-01-02 15:04" }}
 - id: format_date
   translation: '{{ .Format "2006-01-02" }}'
 - id: format_date_tosec
